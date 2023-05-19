@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\ProjectLearn\\Learn\\Source\\Learn\\Learn.Build.cs",
+		"E:\\ProjectLearn\\Learn\\Source\\Learn.Target.cs",
+		"E:\\ProjectLearn\\Learn\\Source\\LearnEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
