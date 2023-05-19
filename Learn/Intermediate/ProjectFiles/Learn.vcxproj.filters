@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Learn.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5B5C3456-8152-4E6D-B1E4-1DBAA56EDE52}</UniqueIdentifier>
+      <UniqueIdentifier>{D980AAD4-8CD4-4FF3-8C4F-E22249B2EC5A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Learn.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{70CA0AAF-65AE-4CD5-86BA-F79F097BA867}</UniqueIdentifier>
+      <UniqueIdentifier>{7A90C1E4-E1C6-495F-AB5F-6E7F2C62C6C9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Learn">
-      <UniqueIdentifier>{24436B31-34D5-4ECC-B28C-A2B7D26DE4FD}</UniqueIdentifier>
+      <UniqueIdentifier>{CBCFC9A5-5302-4686-B66C-58CEE217BE80}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Learn\Learn.Build.cs">
       <Filter>Source\Learn</Filter>
