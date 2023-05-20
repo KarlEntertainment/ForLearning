@@ -1,0 +1,19 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\ProjectLearn\Learn\ForLearning).
+  Creating makefile for LearnEditor (no existing makefile)
+  Building LearnEditor...
+  Using Visual Studio 2019 14.29.30148 toolchain (D:\VS2019Self\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 16 processes...
+    [1/10] SharedPCH.Engine.ShadowErrors.cpp
+    [2/10] Learn.cpp
+    [3/10] Learn.init.gen.cpp
+    [4/10] LearnGameModeBase.cpp
+    [5/10] LearnGameModeBase.gen.cpp
+    [6/10] KCharacter.gen.cpp
+    [7/10] KCharacter.cpp
+    [8/10] UE4Editor-Learn.lib
+      正在创建库 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.lib 和对象 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.exp
+    [9/10] UE4Editor-Learn.dll
+      正在创建库 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.suppressed.lib 和对象 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.suppressed.exp
+    [10/10] LearnEditor.target
+  Total time in Parallel executor: 17.52 seconds
+  Total execution time: 18.87 seconds

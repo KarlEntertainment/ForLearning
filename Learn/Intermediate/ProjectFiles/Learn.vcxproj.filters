@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Learn.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D980AAD4-8CD4-4FF3-8C4F-E22249B2EC5A}</UniqueIdentifier>
+      <UniqueIdentifier>{89ED0DBD-42F0-4D25-9ADC-790CC614455E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Learn.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7A90C1E4-E1C6-495F-AB5F-6E7F2C62C6C9}</UniqueIdentifier>
+      <UniqueIdentifier>{449D90B5-D167-4F26-BF1F-4F46E5631F8E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Learn">
-      <UniqueIdentifier>{CBCFC9A5-5302-4686-B66C-58CEE217BE80}</UniqueIdentifier>
+      <UniqueIdentifier>{F183D929-CA44-4CFA-BC5B-20D632375C9D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Learn\KCharacter.cpp">
+      <Filter>Source\Learn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Learn\KCharacter.h">
+      <Filter>Source\Learn</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Learn\Learn.Build.cs">
       <Filter>Source\Learn</Filter>
     </None>
