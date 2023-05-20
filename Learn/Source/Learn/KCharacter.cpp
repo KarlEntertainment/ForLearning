@@ -26,6 +26,19 @@ void AKCharacter::BeginPlay()
 	
 }
 
+void AKCharacter::MoveForward(float Value)
+{
+	AddMovementInput(GetActorForwardVector(), Value);
+
+}
+
+void AKCharacter::MoveRight(float Value)
+{
+	AddMovementInput(GetActorRightVector(), Value);
+}
+
+
+
 // Called every frame
 void AKCharacter::Tick(float DeltaTime)
 {
@@ -38,5 +51,14 @@ void AKCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveForward", this, &AKCharacter::MoveForward);
+	//前进和后退，PlayerCOmponent的函数实现的
+	PlayerInputComponent->BindAxis("MoveRight", this, &AKCharacter::MoveRight);
+	//左右走，实现同上
+
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//Yaw输入，左右转，很明显
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//上下,没起作用，原因不明
 }
 

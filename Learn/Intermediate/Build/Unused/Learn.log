@@ -1,17 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\ProjectLearn\Learn\ForLearning).
-  Parsing headers for LearnEditor
-    Running UnrealHeaderTool "E:\ProjectLearn\Learn\ForLearning\Learn\Learn.uproject" "E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\LearnEditor\Development\LearnEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Karl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for LearnEditor in 2.8209855 seconds
   Building LearnEditor...
   Using Visual Studio 2019 14.29.30148 toolchain (D:\VS2019Self\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 16 processes...
-    [1/6] Learn.init.gen.cpp
-    [2/6] KCharacter.cpp
-    [3/6] KCharacter.gen.cpp
-    [4/6] UE4Editor-Learn-0003.lib
-      正在创建库 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn-0003.lib 和对象 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn-0003.exp
-    [5/6] UE4Editor-Learn-0003.dll
-      正在创建库 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn-0003.suppressed.lib 和对象 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn-0003.suppressed.exp
-    [6/6] LearnEditor.target
-  Total time in Parallel executor: 1.43 seconds
-  Total execution time: 4.69 seconds
+  Building 4 actions with 16 processes...
+    [1/4] KCharacter.cpp
+    [2/4] UE4Editor-Learn.lib
+      正在创建库 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.lib 和对象 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.exp
+    [3/4] UE4Editor-Learn.dll
+      正在创建库 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.suppressed.lib 和对象 E:\ProjectLearn\Learn\ForLearning\Learn\Intermediate\Build\Win64\UE4Editor\Development\Learn\UE4Editor-Learn.suppressed.exp
+    [4/4] LearnEditor.target
+  Total time in Parallel executor: 1.19 seconds
+  Total execution time: 1.54 seconds
